@@ -11,5 +11,5 @@ PS1='[\u@\h \W]\$ '
 # function for changing the title of the bash window
 # so we can stay organized
 function changeTitle {
-	PROMPT_COMMAND="echo -ne \"\033]0;$1 (on $HOSTNAME) \007\""
+	PROMPT_COMMAND="echo -ne \"\033]0;$1\007\""
 }
