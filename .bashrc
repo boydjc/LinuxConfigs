@@ -10,11 +10,6 @@ PS1='[\u@\h \W]\$ '
 
 # function for changing the title of the bash window
 # so we can stay organized
-function changeTitle{
-    if [ -z "$1" ]
-    then
-        title=${PWD##*/} # current directory
-    else
-	title=$1 # first param
-    fi
+function changeTitle {
+	PROMPT_COMMAND="echo -ne \"\033]0;$1 (on $HOSTNAME) \007\""
 }
