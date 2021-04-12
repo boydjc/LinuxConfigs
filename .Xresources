@@ -1,0 +1,8 @@
+! XResource File
+! Colors for xterm
+*background: #000000
+*foreground: #00FF00
+
+! font
+xterm*faceName: Monospace
+xterm*faceSize: 10
