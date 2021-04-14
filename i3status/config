@@ -23,15 +23,15 @@ wireless _first_ {
 }
 
 battery all {
-        format = "%status %percentage %remaining"
+        format = "%status %percentage Time Remaining: %remaining"
 }
 
 disk "/" {
-        format = "%avail"
+        format = "Disc Avail: %avail"
 }
 
 memory {
-        format = "MEM %used | %available"
+        format = "MEM Used: %used | Avail: %available"
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
 }
