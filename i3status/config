@@ -15,6 +15,7 @@ order += "wireless _first_"
 order += "battery all"
 order += "disk /"
 order += "memory"
+order += "volume master"
 order += "tztime local"
 
 wireless _first_ {
@@ -27,13 +28,19 @@ battery all {
 }
 
 disk "/" {
-        format = "Disc Avail: %avail"
+        format = "Disc Avail:%avail"
 }
 
 memory {
-        format = "MEM Used: %used|Avail: %available"
+        format = "MEM Used:%used/Avail:%available"
         threshold_degraded = "1G"
         format_degraded = "MEMORY < %available"
+}
+
+volume master {
+	format = "Vol: %volume"
+	format_muted = "Vol: muted"
+	device = "pulse"
 }
 
 tztime local {
