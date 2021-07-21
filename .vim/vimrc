@@ -1,3 +1,21 @@
 set tabstop=4
 set shiftwidth=4
 set expandtab
+set wrap
+set mouse=a
+set number
+syntax on
+colorscheme pablo
+
+
+" VIMSCRIPT ----------------------------------------- {{{
+
+" Enable code folding
+augroup filetype_vim
+    autocmd!
+    autocmd FileType vim setlocal foldmethod=marker
+augroup END
+
+"}}}
+
+
