@@ -5,7 +5,6 @@ set wrap
 set mouse=a
 set number
 syntax on
-colorscheme pablo
 let g:netrw_dirhistmax = 0
 
 
