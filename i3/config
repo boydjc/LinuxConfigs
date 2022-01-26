@@ -183,6 +183,10 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+		colors {
+			background #2E3440
+			statusline #FFFFFF
+		}
 }
 
 # cosmetic stuff
@@ -190,7 +194,7 @@ bar {
 title_align center
 
 # Colors used to draw window decorations
-# class		    border	background	text     indicator	child_border
-client.focused      #00FF00	#000000		#00FF00  #00FF00	#00FF00
+# class		    border	 background	 text     indicator	 child_border
+client.focused  #D8DEE9	 #3B4252	 #FFFFFF  #D8DEE9	 #D8DEE9
 # client.background only takes 1 color
-client.background   #000000     
+client.background   #2E3440     

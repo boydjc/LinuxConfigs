@@ -8,14 +8,4 @@ syntax on
 let g:netrw_dirhistmax = 0
 
 
-" VIMSCRIPT ----------------------------------------- {{{
-
-" Enable code folding
-augroup filetype_vim
-    autocmd!
-    autocmd FileType vim setlocal foldmethod=marker
-augroup END
-
-"}}}
-
 
