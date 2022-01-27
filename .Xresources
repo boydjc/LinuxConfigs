@@ -4,5 +4,5 @@
 *foreground: #FFFFFF
 
 ! font
-xterm*faceName: Monospace
-xterm*faceSize: 10
+xterm*faceName: Source Code Pro
+xterm*faceSize: 10.5
