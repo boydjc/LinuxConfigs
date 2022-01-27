@@ -8,7 +8,7 @@
 alias ls='ls --color=auto'
 alias vi='vim'
 
-PS1='[\u@\h \W]\$ '
+PS1='\e[1;36m[\u@\h \W]\$ \e[m'
 
 # function for changing the title of the bash window
 # so we can stay organized
