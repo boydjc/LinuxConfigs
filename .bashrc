@@ -7,6 +7,7 @@
 
 alias ls='ls --color=auto'
 alias vi='vim'
+alias thinkorswim='~/thinkorswim/thinkorswim'
 
 PS1='\[\033[01;36m\][\u@\h \W]\$ '
 
