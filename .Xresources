@@ -1,8 +1,8 @@
 ! XResource File
-! Colors for xterm
+! Colors 
 *background: #2E3440
 *foreground: #FFFFFF
 
-! font
+! xterm font
 xterm*faceName: Source Code Pro
 xterm*faceSize: 10
