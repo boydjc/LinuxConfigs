@@ -26,7 +26,7 @@ font pango:monospace 10
 exec --no-startup-id compton -c
 
 # set background image using feh
-exec feh --bg-scale ~/Pictures/Wallpapers/nebula-4k-bv-1920x1080.jpg
+exec feh --bg-scale ~/Pictures/Wallpapers/spaceOne.jpg
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
