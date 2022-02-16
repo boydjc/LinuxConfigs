@@ -14,8 +14,8 @@ splash:		True
 splashDuration:	0:00:05
 demoCommand:	xscreensaver-settings
 nice:		10
-fade:		True
-unfade:		True
+fade:		False
+unfade:		False
 fadeSeconds:	0:00:03
 ignoreUninstalledPrograms:False
 font:		
