@@ -1,5 +1,5 @@
 # XScreenSaver Preferences File
-# Written by xscreensaver-settings 6.02 for s7341 on Tue Feb 15 21:53:29 2022.
+# Written by xscreensaver-settings 6.02 for s7341 on Wed Feb 16 12:18:10 2022.
 # https://www.jwz.org/xscreensaver/
 
 timeout:	0:02:00
@@ -29,7 +29,7 @@ grabVideoFrames:    False
 chooseRandomImages: False
 imageDirectory:	
 
-mode:		one
+mode:		blank
 selected:	143
 
 textMode:	file
