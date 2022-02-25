@@ -25,3 +25,5 @@ export PATH=$PATH:/home/s7341/.local/bin:/home/s7341/.local/share/gem/ruby/3.0.0
 # smooths fonts used in java apps ran from cli
 export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on'
 
+# initialize rbenv for ruby
+eval "$(rbenv init -)"
