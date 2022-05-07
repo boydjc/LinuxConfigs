@@ -26,7 +26,7 @@ font pango:Source Code Pro 10
 exec --no-startup-id compton -c
 
 # set background image using feh
-exec feh --bg-scale ~/Pictures/Wallpapers/spaceOne.jpg
+exec feh --bg-scale ~/Pictures/Wallpapers/earth.png
 
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
@@ -190,7 +190,7 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 		colors {
-			background #2E3440
+			background #0f1212
 			statusline #FFFFFF
 		}
 }
@@ -201,6 +201,6 @@ title_align center
 
 # Colors used to draw window decorations
 # class		    border	 background	 text     indicator	 child_border
-client.focused  #D8DEE9	 #3B4252	 #FFFFFF  #D8DEE9	 #D8DEE9
+client.focused  #FFFFFF	 #0f1012	 #FFFFFF  #01f012	 #0f1012
 # client.background only takes 1 color
-client.background   #2E3440     
+client.background   #0f1012     
