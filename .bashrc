@@ -27,3 +27,6 @@ export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on'
 
 # initialize rbenv for ruby
 eval "$(rbenv init -)"
+
+# fix backspace issue with commandline 
+stty erase ^H
