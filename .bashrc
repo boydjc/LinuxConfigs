@@ -9,7 +9,7 @@ alias ls='ls --color=auto'
 alias vi='vim'
 alias thinkorswim='~/thinkorswim/thinkorswim'
 
-PS1='\e[1;37m[\e[m\e[1;31m\u\e[m\e[1;37m@\h \W]\$\e[m '
+PS1='\[\e[1;37m\][\[\e[m\]\[\e[1;31m\]\u\[\e[m\]\[\e[1;37m\]@\h\W]\$\[\e[m\] '
 
 # function for changing the title of the bash window
 # so we can stay organized
